@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PlanZajec Sala FK" directorySegmentName="seg_0" id="0BA64298-FAFB-87ED-5215-19A2BAA6A713">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:18:50 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<sourcePk>1448DB08-E4CF-AF0C-2D45-14B64B0DBB46</sourcePk>
+<targetPk>769B86E4-A925-BBB8-466C-D887EE7EC36B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA9665F7-6B53-0333-36F6-CAA7655AC415</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13C9200D-8B48-4E3A-C4F5-901B4683E9EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

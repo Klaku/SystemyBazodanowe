@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="FF946361-6518-66D9-D5B1-9409D165CC77">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:21:08 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<sourcePk>1FA92DB7-EA2F-ADC5-4A58-EDD865223E88</sourcePk>
+<targetPk>769B86E4-A925-BBB8-466C-D887EE7EC36B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>67BE1A54-D0E9-0FA6-9B0F-FC606023C6F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13C9200D-8B48-4E3A-C4F5-901B4683E9EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="USER Id" id="C68EF541-CA25-48FA-4DF4-34E52729389B">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:28:15 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="PlanZajec Id" id="5395F661-70DB-4232-9948-6ADB012AF952">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:28:15 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

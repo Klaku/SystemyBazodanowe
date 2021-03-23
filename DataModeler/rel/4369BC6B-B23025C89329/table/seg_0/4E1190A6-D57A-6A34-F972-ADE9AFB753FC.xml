@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E1190A6-D57A-6A34-F972-ADE9AFB753FC" name="Prowadzacy">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<ordsAlias>relation_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_Id" id="2BE8EB28-631B-FF8E-5932-4462C80DC9B4">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10191EEF-0504-3910-70FD-1E2060499E16" referredColumn="F5CDE7D6-2CB7-27EF-D501-C72CDBB7B93C"/>
+</associations>
+</Column>
+<Column name="Przedmiot_Id" id="1DE1DA20-F5F8-1D6F-0698-E1A916DA7EE1">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4996746-0581-C222-1C60-8983310ECCB1" referredColumn="9CEE3106-43BF-1A28-EF19-E437CC72D9F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F081702E-EE92-D7A7-7752-2FD572F810A1" name="Relation_4_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE8EB28-631B-FF8E-5932-4462C80DC9B4"/>
+<colUsage columnID="1DE1DA20-F5F8-1D6F-0698-E1A916DA7EE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDE8BF4F-6405-B4B8-9DC6-611E9F5516D8" name="Relation_4_USER_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>C08EF05D-AB6E-779E-8B02-C4512405B553</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE8EB28-631B-FF8E-5932-4462C80DC9B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E872F4D-0F10-CC67-C089-919FC346DFA6" name="Relation_4_Przedmiot_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>C08EF05D-AB6E-779E-8B02-C4512405B553</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DE1DA20-F5F8-1D6F-0698-E1A916DA7EE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

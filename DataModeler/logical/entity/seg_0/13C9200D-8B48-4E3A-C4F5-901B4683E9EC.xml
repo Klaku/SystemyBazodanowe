@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13C9200D-8B48-4E3A-C4F5-901B4683E9EC" name="PlanZajec">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:15:13 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="9C20935E-14FA-8562-1AF4-828D31A91E80">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:15:22 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataStart" id="DEDBF833-A7A3-673D-1991-237EB2E8463E">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:15:32 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataKoniec" id="88B55CC6-D70D-3CBB-0E07-365B70E62334">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:16:23 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Termin" id="3C70DA82-679A-FD3D-5C49-DCA4760817D6">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:16:34 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sala Id" id="8186AB5C-FEC1-2283-ABCA-ABAA47E77CBC">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:20:00 UTC</createdTime>
+<generatorID>0BA64298-FAFB-87ED-5215-19A2BAA6A713</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<referedAttribute>F166558C-796D-14C4-295A-715427053465</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Przedmiot Id" id="685C4960-F3C4-2C81-E2CB-C25CA1A5199D">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:20:26 UTC</createdTime>
+<generatorID>1D1E4906-168A-7894-EA64-E8723898F986</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<referedAttribute>775101A2-626B-91B8-51F4-B303814976F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="769B86E4-A925-BBB8-466C-D887EE7EC36B" name="PlanZajec PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:15:24 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C20935E-14FA-8562-1AF4-828D31A91E80</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

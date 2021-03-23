@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7345AC8-7BC9-E2D5-12A1-8432F9400225" name="Przedmiot">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>9149FDF4-52F7-2338-B622-707792A5A534</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="9CEE3106-43BF-1A28-EF19-E437CC72D9F1">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>775101A2-626B-91B8-51F4-B303814976F4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="474DBAA5-923D-CD4A-6BF1-4B745DFCA190">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>6426790E-E10C-9F12-B4A2-590649142C3D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ECTS" id="C99D369B-B5C3-0DC7-78D6-6AECB050843B">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>10C76481-C2B2-49B2-24A0-DBAF534439E3</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="368AADAF-9860-7889-5CD8-C590E8787264" name="Przedmiot_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>3372FE8F-E24C-1DD6-1682-BA4726E553D7</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CEE3106-43BF-1A28-EF19-E437CC72D9F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

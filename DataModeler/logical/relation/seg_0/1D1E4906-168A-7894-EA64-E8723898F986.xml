@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PlanZajec Przedmiot FK" directorySegmentName="seg_0" id="1D1E4906-168A-7894-EA64-E8723898F986">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:20:26 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<sourcePk>3372FE8F-E24C-1DD6-1682-BA4726E553D7</sourcePk>
+<targetPk>769B86E4-A925-BBB8-466C-D887EE7EC36B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9149FDF4-52F7-2338-B622-707792A5A534</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13C9200D-8B48-4E3A-C4F5-901B4683E9EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

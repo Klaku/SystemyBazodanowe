@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25ADC31C-1690-0E5E-DD47-6A327345DFFB" name="PlanZajec">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>13C9200D-8B48-4E3A-C4F5-901B4683E9EC</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="A6178B5F-DA97-5903-C470-66CE3BBBF5F1">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>9C20935E-14FA-8562-1AF4-828D31A91E80</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataStart" id="F1F5339F-74CA-7510-D999-828DF47B95B6">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>DEDBF833-A7A3-673D-1991-237EB2E8463E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataKoniec" id="BD0A9B42-9ED8-BD25-4759-DF7175442241">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>88B55CC6-D70D-3CBB-0E07-365B70E62334</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Termin" id="7C09C89C-CA6D-50A2-4C25-7DC2557B5027">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>3C70DA82-679A-FD3D-5C49-DCA4760817D6</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sala_Id" id="6FA7D0AC-EBF6-51DD-C4F5-BF1C4647B75C">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>8186AB5C-FEC1-2283-ABCA-ABAA47E77CBC</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9EB059D-2B38-628E-56EE-A279A11184E7" referredColumn="8B51E392-CCD6-DB0F-22EA-AF990EA8C47E"/>
+</associations>
+</Column>
+<Column name="Przedmiot_Id" id="52190354-3054-4D30-BA22-5A1C8F47A22F">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>685C4960-F3C4-2C81-E2CB-C25CA1A5199D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F441DC3E-D296-5F46-7852-D487584291EA" referredColumn="9CEE3106-43BF-1A28-EF19-E437CC72D9F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F0BFF37-DBAF-14D2-612A-63D9ECE9610F" name="PlanZajec_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>769B86E4-A925-BBB8-466C-D887EE7EC36B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6178B5F-DA97-5903-C470-66CE3BBBF5F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3D92FEF-EC9E-2DBE-DD2F-B4229919010A" name="PlanZajec_Sala_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>0BA64298-FAFB-87ED-5215-19A2BAA6A713</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FA7D0AC-EBF6-51DD-C4F5-BF1C4647B75C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6822C71-6CB2-9EFF-1166-EAE49D7366BF" name="PlanZajec_Przedmiot_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:22:44 UTC</createdTime>
+<generatorID>1D1E4906-168A-7894-EA64-E8723898F986</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52190354-3054-4D30-BA22-5A1C8F47A22F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

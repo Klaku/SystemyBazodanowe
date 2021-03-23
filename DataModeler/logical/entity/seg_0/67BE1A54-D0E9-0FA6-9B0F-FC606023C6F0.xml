@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67BE1A54-D0E9-0FA6-9B0F-FC606023C6F0" name="USER">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<generatorID>EF7398A5-176A-428D-3C39-6FDA8303C562</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="B7B31363-3E4A-F7DA-599C-CD4B534EF469">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<generatorID>F5CDE7D6-2CB7-27EF-D501-C72CDBB7B93C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="D736442C-3AD0-7221-AC41-05D95B935733">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<generatorID>0F586ACF-3C18-A1DC-AECB-A85A327982AF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="4F606797-41E9-36C6-89ED-E370453BD72A">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<generatorID>81F65575-EF14-24D8-19DB-258C14E8BFA6</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="D6360F40-C431-EECE-75AD-3A815EBD588C">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<generatorID>017FB109-43E1-74A6-0170-DA755808E8DE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" directorySegmentName="seg_0" id="F73D44C2-0CB9-F830-B85B-40B55EE6AF84">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:02:51 UTC</createdTime>
+<generatorID>5596999E-712D-0A68-87D4-AE1A61C8A274</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<referedAttribute>B7B31363-3E4A-F7DA-599C-CD4B534EF469</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FA92DB7-EA2F-ADC5-4A58-EDD865223E88" name="USER PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<generatorID>48702B31-321E-AE8B-F914-CCD4169C170D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7B31363-3E4A-F7DA-599C-CD4B534EF469</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
