@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7420AF3F-190A-95CC-9150-0BC89DE40CE0" name="Rola">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4323C2BA-5101-43C8-816D-1191E318D213" name="Role">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:04:45 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>2F2B8F26-DAE4-86B9-4C17-B4CFDE7D9117</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
@@ -15,37 +16,40 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id" id="61FC7FB6-4C86-1575-2393-46546BF377F2">
+<Attribute name="Rola Id" id="3E863080-0110-22AB-EA16-FF270ACBDF26">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:05:13 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>8F2A7B7E-B6A1-1284-7C54-DBA6EECD024D</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
 </engineerTo>
+<referedAttribute>A1E387D9-54E2-B11E-F535-DD63B512D100</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Stanowisko" id="53E047B9-1324-C4C0-2EEA-E6C488CCC526">
+<Attribute name="User Id" id="A76D6BCF-AAE5-8FEA-999C-FE8E4F8F8C7B">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:05:47 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>CBFF9487-88CB-B45C-7043-AE3FA336BDA1</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FE7873D7-01CA-4860-CB06-B2C66543946D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6FBEA004-A7FA-5A45-567B-2CBB686DC95F" name="Rola PK">
+<identifier id="07F43048-0E57-9FD4-AE6F-FEAA45DAD700" name="Role_PK">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:05:43 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>9925E0A2-9951-EE37-5E63-1E4B22EFB3A5</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -53,7 +57,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>61FC7FB6-4C86-1575-2393-46546BF377F2</attributeRef>
+<attributeRef>3E863080-0110-22AB-EA16-FF270ACBDF26</attributeRef>
+<attributeRef>A76D6BCF-AAE5-8FEA-999C-FE8E4F8F8C7B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

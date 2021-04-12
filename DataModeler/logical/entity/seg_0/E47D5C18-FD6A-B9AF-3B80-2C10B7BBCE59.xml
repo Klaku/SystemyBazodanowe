@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9149FDF4-52F7-2338-B622-707792A5A534" name="Przedmiot">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E47D5C18-FD6A-B9AF-3B80-2C10B7BBCE59" name="Przedmiot">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:11:46 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>A7345AC8-7BC9-E2D5-12A1-8432F9400225</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id" id="775101A2-626B-91B8-51F4-B303814976F4">
+<Attribute name="Id" id="4A8099ED-1D32-3A56-D5CC-72FEBE7B89B5">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:12:01 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>9CEE3106-43BF-1A28-EF19-E437CC72D9F1</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
@@ -27,9 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazwa" id="6426790E-E10C-9F12-B4A2-590649142C3D">
+<Attribute name="Nazwa" id="A0872FAC-AEDE-8FB0-94F4-5BAA969FA135">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:12:11 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>474DBAA5-923D-CD4A-6BF1-4B745DFCA190</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
@@ -40,9 +43,10 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ECTS" id="10C76481-C2B2-49B2-24A0-DBAF534439E3">
+<Attribute name="ECTS" id="2143E4DC-2B10-C549-0FAB-0672B942BD78">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:12:33 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>C99D369B-B5C3-0DC7-78D6-6AECB050843B</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
@@ -54,16 +58,18 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3372FE8F-E24C-1DD6-1682-BA4726E553D7" name="Przedmiot PK">
+<identifier id="A855B5FD-3EC7-600E-E75D-20158A815320" name="Przedmiot PK">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:14:17 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>368AADAF-9860-7889-5CD8-C590E8787264</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>775101A2-626B-91B8-51F4-B303814976F4</attributeRef>
+<attributeRef>4A8099ED-1D32-3A56-D5CC-72FEBE7B89B5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

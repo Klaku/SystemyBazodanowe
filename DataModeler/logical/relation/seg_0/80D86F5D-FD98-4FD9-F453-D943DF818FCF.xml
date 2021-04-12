@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DANEADRESOWE USER FK" directorySegmentName="seg_0" id="5596999E-712D-0A68-87D4-AE1A61C8A274">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Oceny User FK" directorySegmentName="seg_0" id="80D86F5D-FD98-4FD9-F453-D943DF818FCF">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:02:19 UTC</createdTime>
+<createdTime>2021-04-12 15:52:50 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
 </engineerTo>
-<sourcePk>1FA92DB7-EA2F-ADC5-4A58-EDD865223E88</sourcePk>
-<targetPk>1FA92DB7-EA2F-ADC5-4A58-EDD865223E88</targetPk>
+<sourcePk>BB589B04-2C72-4477-0478-F4517CF9E2BD</sourcePk>
+<targetPk>3579E40C-229D-1BFA-2FE8-6C2EA5B63FC8</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>67BE1A54-D0E9-0FA6-9B0F-FC606023C6F0</sourceEntity>
+<sourceEntity>9796E741-DCA2-38A7-AC37-935B980553F9</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>5131F0B9-ECC7-ECEA-8C63-8B78FB65B449</targetEntity>
+<targetEntity>0E707C03-4919-28C6-80E9-D89A8E1E96AA</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

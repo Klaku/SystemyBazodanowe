@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Role Rola FK" directorySegmentName="seg_0" id="8F2A7B7E-B6A1-1284-7C54-DBA6EECD024D">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>8EC9B3E9-A054-F778-2085-DE59C2A53BFB</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<sourcePk>C4B2B439-86DE-340E-760D-4F1DB6939A8D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>432FD1EE-FAB8-909E-BB3C-8E1ED3D1B48A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4323C2BA-5101-43C8-816D-1191E318D213</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

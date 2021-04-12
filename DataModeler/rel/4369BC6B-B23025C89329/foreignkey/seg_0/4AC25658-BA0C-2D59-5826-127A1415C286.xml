@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F441DC3E-D296-5F46-7852-D487584291EA" containerWithKeyObject="25ADC31C-1690-0E5E-DD47-6A327345DFFB" localFKIndex="C6822C71-6CB2-9EFF-1166-EAE49D7366BF" name="PlanZajec_Przedmiot_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4AC25658-BA0C-2D59-5826-127A1415C286" containerWithKeyObject="3FBF58B7-0F92-0582-F096-AF279111838C" localFKIndex="3CA99D4D-BCCF-F796-BFA4-02A9CA20C28F" name="Oceny_Przedmiot_FK">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:22:44 UTC</createdTime>
-<generatorID>1D1E4906-168A-7894-EA64-E8723898F986</generatorID>
+<createdTime>2021-04-12 15:53:15 UTC</createdTime>
+<generatorID>8FDD0010-AD03-2BE9-156F-E8EE17D358DF</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <referredTableLongName>Przedmiot</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

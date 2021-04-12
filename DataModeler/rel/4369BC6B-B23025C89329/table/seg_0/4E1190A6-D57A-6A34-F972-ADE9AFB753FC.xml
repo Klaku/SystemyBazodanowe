@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="USER_Id" id="2BE8EB28-631B-FF8E-5932-4462C80DC9B4">
+<Column name="User_Id" id="2BE8EB28-631B-FF8E-5932-4462C80DC9B4">
 <createdBy>Administrator</createdBy>
 <createdTime>2021-03-23 08:22:44 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>
@@ -38,7 +38,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F081702E-EE92-D7A7-7752-2FD572F810A1" name="Relation_4_PK">
+<ind_PK_UK id="F081702E-EE92-D7A7-7752-2FD572F810A1" name="Prowadzacy_PK">
 <createdBy>Administrator</createdBy>
 <createdTime>2021-03-23 08:22:44 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>
@@ -50,7 +50,7 @@
 <colUsage columnID="1DE1DA20-F5F8-1D6F-0698-E1A916DA7EE1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EDE8BF4F-6405-B4B8-9DC6-611E9F5516D8" name="Relation_4_USER_FK">
+<ind_PK_UK id="EDE8BF4F-6405-B4B8-9DC6-611E9F5516D8" name="Prowadzacy_User_FK">
 <createdBy>Administrator</createdBy>
 <createdTime>2021-03-23 08:22:44 UTC</createdTime>
 <generatorID>C08EF05D-AB6E-779E-8B02-C4512405B553</generatorID>
@@ -61,7 +61,7 @@
 <colUsage columnID="2BE8EB28-631B-FF8E-5932-4462C80DC9B4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8E872F4D-0F10-CC67-C089-919FC346DFA6" name="Relation_4_Przedmiot_FK">
+<ind_PK_UK id="8E872F4D-0F10-CC67-C089-919FC346DFA6" name="Prowadzacy_Przedmiot_FK">
 <createdBy>Administrator</createdBy>
 <createdTime>2021-03-23 08:22:44 UTC</createdTime>
 <generatorID>C08EF05D-AB6E-779E-8B02-C4512405B553</generatorID>

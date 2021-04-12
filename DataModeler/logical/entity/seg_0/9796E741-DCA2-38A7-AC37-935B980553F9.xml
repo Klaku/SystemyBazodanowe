@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67BE1A54-D0E9-0FA6-9B0F-FC606023C6F0" name="USER">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9796E741-DCA2-38A7-AC37-935B980553F9" name="User">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
 <generatorID>EF7398A5-176A-428D-3C39-6FDA8303C562</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
@@ -16,9 +16,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id" id="B7B31363-3E4A-F7DA-599C-CD4B534EF469">
+<Attribute name="Id" id="FE7873D7-01CA-4860-CB06-B2C66543946D">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
 <generatorID>F5CDE7D6-2CB7-27EF-D501-C72CDBB7B93C</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
@@ -29,24 +29,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazwa" id="D736442C-3AD0-7221-AC41-05D95B935733">
+<Attribute name="Imie" id="CD83884D-E906-9DF7-6C38-CCED97112324">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:01:55 UTC</createdTime>
-<generatorID>0F586ACF-3C18-A1DC-AECB-A85A327982AF</generatorID>
-<ownerDesignName>DataModeler</ownerDesignName>
-<engineerTo>
-<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Imie" id="4F606797-41E9-36C6-89ED-E370453BD72A">
-<createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
 <generatorID>81F65575-EF14-24D8-19DB-258C14E8BFA6</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
@@ -59,9 +44,9 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazwisko" id="D6360F40-C431-EECE-75AD-3A815EBD588C">
+<Attribute name="Nazwisko" id="D42630A9-31E4-4E33-EA77-EA03A1AE954F">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
 <generatorID>017FB109-43E1-74A6-0170-DA755808E8DE</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
@@ -74,25 +59,56 @@
 <dataTypeSize>32 CHAR</dataTypeSize>
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Id1" directorySegmentName="seg_0" id="F73D44C2-0CB9-F830-B85B-40B55EE6AF84">
+<Attribute name="Miasto" id="86840F9F-BED7-C2F8-C2C0-7983AC9B7D24">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:02:51 UTC</createdTime>
-<generatorID>5596999E-712D-0A68-87D4-AE1A61C8A274</generatorID>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>70A1AE94-608D-E618-FD85-CFCBD708FD55</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
 </engineerTo>
-<referedAttribute>B7B31363-3E4A-F7DA-599C-CD4B534EF469</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KodPocztowy" id="B33FE60B-6DC8-2F43-5FD6-2343EC336F84">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>CFE4E412-04FD-2560-EF11-0F938C16D02B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres" id="DF76A43C-6939-4E64-3C39-C30CA930C6BA">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>F2B70862-D48A-B857-0B67-5B5872CEFFD0</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1FA92DB7-EA2F-ADC5-4A58-EDD865223E88" name="USER PK">
+<identifier id="BB589B04-2C72-4477-0478-F4517CF9E2BD" name="User_PK">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:01:55 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
 <generatorID>48702B31-321E-AE8B-F914-CCD4169C170D</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
@@ -101,7 +117,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B7B31363-3E4A-F7DA-599C-CD4B534EF469</attributeRef>
+<attributeRef>FE7873D7-01CA-4860-CB06-B2C66543946D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

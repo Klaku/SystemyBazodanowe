@@ -22,7 +22,7 @@
 <colAssociation fkAssociation="8EC9B3E9-A054-F778-2085-DE59C2A53BFB" referredColumn="52D28342-48D6-F534-7278-848B82C4520E"/>
 </associations>
 </Column>
-<Column name="USER_Id" id="77C95A7E-AA51-9AD4-588B-E1ED83BF921D">
+<Column name="User_Id" id="77C95A7E-AA51-9AD4-588B-E1ED83BF921D">
 <createdBy>Administrator</createdBy>
 <createdTime>2021-03-23 08:09:30 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>
@@ -38,7 +38,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9925E0A2-9951-EE37-5E63-1E4B22EFB3A5" name="Relation_2_PK">
+<ind_PK_UK id="9925E0A2-9951-EE37-5E63-1E4B22EFB3A5" name="Role_PK">
 <createdBy>Administrator</createdBy>
 <createdTime>2021-03-23 08:09:30 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>
@@ -50,7 +50,7 @@
 <colUsage columnID="77C95A7E-AA51-9AD4-588B-E1ED83BF921D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5CC2A5A4-563F-1D48-EBA9-5A9A208B99A2" name="Relation_2_Rola_FK">
+<ind_PK_UK id="5CC2A5A4-563F-1D48-EBA9-5A9A208B99A2" name="Role_Rola_FK">
 <createdBy>Administrator</createdBy>
 <createdTime>2021-03-23 08:09:30 UTC</createdTime>
 <generatorID>586BF1B2-BBF0-E3B4-7FAC-B31C341BE8B3</generatorID>
@@ -61,7 +61,7 @@
 <colUsage columnID="D6F24D67-F666-3273-367B-7FDC387CF6FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D346FD4B-A291-65B5-2ABB-B2CECBD73FB2" name="Relation_2_USER_FK">
+<ind_PK_UK id="D346FD4B-A291-65B5-2ABB-B2CECBD73FB2" name="Role_User_FK">
 <createdBy>Administrator</createdBy>
 <createdTime>2021-03-23 08:09:30 UTC</createdTime>
 <generatorID>586BF1B2-BBF0-E3B4-7FAC-B31C341BE8B3</generatorID>

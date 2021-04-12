@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Oceny Przedmiot FK" directorySegmentName="seg_0" id="8FDD0010-AD03-2BE9-156F-E8EE17D358DF">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:50:06 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<sourcePk>3579E40C-229D-1BFA-2FE8-6C2EA5B63FC8</sourcePk>
+<targetPk>A855B5FD-3EC7-600E-E75D-20158A815320</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0E707C03-4919-28C6-80E9-D89A8E1E96AA</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E47D5C18-FD6A-B9AF-3B80-2C10B7BBCE59</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

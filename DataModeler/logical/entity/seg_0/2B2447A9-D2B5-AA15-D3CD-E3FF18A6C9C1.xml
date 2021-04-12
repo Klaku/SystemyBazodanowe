@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B62E4C8E-DCE6-5963-58A7-DBB066BE3AA3" name="Oceny">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B2447A9-D2B5-AA15-D3CD-E3FF18A6C9C1" name="Prowadzacy">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:28:15 UTC</createdTime>
-<generatorID>D9BA772A-65E2-E921-50C0-E4334BB869FE</generatorID>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>4E1190A6-D57A-6A34-F972-ADE9AFB753FC</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
@@ -16,40 +16,29 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id" id="C78D1C23-EB4B-BA48-A09A-191FF14AAA2B">
+<Attribute name="User Id" id="2F4C9A26-775C-4F7F-F94B-B5A43384ED5E">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:28:15 UTC</createdTime>
-<generatorID>9621C8E6-EF14-474F-414C-0323598EBF34</generatorID>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>F31888C2-E196-F0E5-3EBA-1D2AB7DC9341</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
 </engineerTo>
+<referedAttribute>FE7873D7-01CA-4860-CB06-B2C66543946D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ocena" id="F4B55024-106E-F2A5-A7EB-1987262F8035">
+<Attribute name="Przedmiot Id" id="53BD1787-76D1-E950-9BAF-FFF243843FDC">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:28:15 UTC</createdTime>
-<generatorID>3705276C-32A1-EE80-1783-2927E13B03D4</generatorID>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>FF814DA0-1A47-2851-A79C-DD11917B88A0</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Para Student Przedmiot" id="CAC12E28-B5E0-CEBE-F3A2-495F04891520">
-<createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:32:05 UTC</createdTime>
-<ownerDesignName>DataModeler</ownerDesignName>
-<engineerTo>
-<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
-</engineerTo>
+<referedAttribute>4A8099ED-1D32-3A56-D5CC-72FEBE7B89B5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -57,17 +46,19 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7172F7AF-2608-3CB3-AFDD-0661E5FB28A8" name="Oceny PK">
+<identifier id="A94F5A94-BF22-4EE7-C5C9-F3628D838B47" name="Prowadzacy_PK">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:28:15 UTC</createdTime>
-<generatorID>F367F80E-9F4F-B231-E8A7-3A58762B4E7F</generatorID>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>F081702E-EE92-D7A7-7752-2FD572F810A1</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C78D1C23-EB4B-BA48-A09A-191FF14AAA2B</attributeRef>
+<attributeRef>2F4C9A26-775C-4F7F-F94B-B5A43384ED5E</attributeRef>
+<attributeRef>53BD1787-76D1-E950-9BAF-FFF243843FDC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA9665F7-6B53-0333-36F6-CAA7655AC415" name="Sala">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="432FD1EE-FAB8-909E-BB3C-8E1ED3D1B48A" name="Rola">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:10:28 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>47EC2531-D7DF-05AF-C29D-6F846C4D8391</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id" id="F166558C-796D-14C4-295A-715427053465">
+<Attribute name="Id" id="A1E387D9-54E2-B11E-F535-DD63B512D100">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:10:47 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>52D28342-48D6-F534-7278-848B82C4520E</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
@@ -27,30 +29,34 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Numer" id="FD170E7D-8F85-7771-0984-EEA5B04AC146">
+<Attribute name="Stanowisko" id="E70508EA-9F2C-A638-56CA-7C2DDDA73461">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:10:59 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>5AC65069-A67A-C319-F58D-F50E84FE1901</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <engineerTo>
 <item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1448DB08-E4CF-AF0C-2D45-14B64B0DBB46" name="Sala PK">
+<identifier id="C4B2B439-86DE-340E-760D-4F1DB6939A8D" name="Rola PK">
 <createdBy>Administrator</createdBy>
-<createdTime>2021-03-23 08:10:55 UTC</createdTime>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>566D38B0-BFA8-BCB7-563D-3DE57BC175A2</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F166558C-796D-14C4-295A-715427053465</attributeRef>
+<attributeRef>A1E387D9-54E2-B11E-F535-DD63B512D100</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

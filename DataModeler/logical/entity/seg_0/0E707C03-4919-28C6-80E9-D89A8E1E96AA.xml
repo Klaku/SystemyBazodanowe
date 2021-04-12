@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E707C03-4919-28C6-80E9-D89A8E1E96AA" name="Oceny">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>3FBF58B7-0F92-0582-F096-AF279111838C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="FB4D8A65-0FC8-EA6D-A446-19658B162E24">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>B49716FB-12B1-BB2A-C739-101991B70FDB</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ocena" id="BC488F73-30E7-4BF8-6CB4-93CBCCB99719">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>E3BA34E3-F25E-4288-1721-41CF1E064BE4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User Id" id="7126FA6A-61DB-7760-A0BB-6861498DB77A">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:52:50 UTC</createdTime>
+<generatorID>80D86F5D-FD98-4FD9-F453-D943DF818FCF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<referedAttribute>FE7873D7-01CA-4860-CB06-B2C66543946D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="87930EB9-3B49-764C-E768-09AA37A9F9F1">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:57:49 UTC</createdTime>
+<generatorID>8FDD0010-AD03-2BE9-156F-E8EE17D358DF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<referedAttribute>4A8099ED-1D32-3A56-D5CC-72FEBE7B89B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3579E40C-229D-1BFA-2FE8-6C2EA5B63FC8" name="Oceny PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>0E6076AE-4568-29C7-9C52-A3DF3FB00B4B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB4D8A65-0FC8-EA6D-A446-19658B162E24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

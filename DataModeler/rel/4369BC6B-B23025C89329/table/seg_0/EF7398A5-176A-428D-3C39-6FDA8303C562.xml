@@ -42,9 +42,45 @@
 <ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Miasto" id="70A1AE94-608D-E618-FD85-CFCBD708FD55">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:36:14 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KodPocztowy" id="CFE4E412-04FD-2560-EF11-0F938C16D02B">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:36:14 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="F2B70862-D48A-B857-0B67-5B5872CEFFD0">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:36:42 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="48702B31-321E-AE8B-F914-CCD4169C170D" name="USER_PK">
+<ind_PK_UK id="48702B31-321E-AE8B-F914-CCD4169C170D" name="User_PK">
 <createdBy>Administrator</createdBy>
 <createdTime>2021-03-23 07:55:25 UTC</createdTime>
 <ownerDesignName>DataModeler</ownerDesignName>

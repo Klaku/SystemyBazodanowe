@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FBF58B7-0F92-0582-F096-AF279111838C" name="Oceny">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:43:12 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="B49716FB-12B1-BB2A-C739-101991B70FDB">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:44:45 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ocena" id="E3BA34E3-F25E-4288-1721-41CF1E064BE4">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:44:45 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Przedmiot_Id" id="9D079715-A6E3-F6BE-8F38-296B8B88CFEE">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:53:15 UTC</createdTime>
+<generatorID>89C66F8A-7292-E67C-13B5-209C53B79E45</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AC25658-BA0C-2D59-5826-127A1415C286" referredColumn="9CEE3106-43BF-1A28-EF19-E437CC72D9F1"/>
+</associations>
+</Column>
+<Column name="User_Id" id="23AE4261-B727-B4C9-C773-4B83F828B00B">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:53:15 UTC</createdTime>
+<generatorID>7126FA6A-61DB-7760-A0BB-6861498DB77A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEF2EDF9-F4A5-CCE7-08A7-0F4BD9CD325A" referredColumn="F5CDE7D6-2CB7-27EF-D501-C72CDBB7B93C"/>
+</associations>
+</Column>
+<Column name="Id1" id="A70102B5-6EF3-0EAA-E78A-2D79F8E56E21">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:58:22 UTC</createdTime>
+<generatorID>87930EB9-3B49-764C-E768-09AA37A9F9F1</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E6076AE-4568-29C7-9C52-A3DF3FB00B4B" name="Oceny_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:44:45 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B49716FB-12B1-BB2A-C739-101991B70FDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CA99D4D-BCCF-F796-BFA4-02A9CA20C28F" name="Oceny_Przedmiot_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:53:15 UTC</createdTime>
+<generatorID>8FDD0010-AD03-2BE9-156F-E8EE17D358DF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D079715-A6E3-F6BE-8F38-296B8B88CFEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C3DAFAB-0977-C126-D0B2-532DB5E8B0D5" name="Oceny_User_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:53:15 UTC</createdTime>
+<generatorID>80D86F5D-FD98-4FD9-F453-D943DF818FCF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23AE4261-B727-B4C9-C773-4B83F828B00B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

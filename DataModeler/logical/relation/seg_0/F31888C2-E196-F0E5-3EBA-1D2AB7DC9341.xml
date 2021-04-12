@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prowadzacy User FK" directorySegmentName="seg_0" id="F31888C2-E196-F0E5-3EBA-1D2AB7DC9341">
+<createdBy>Administrator</createdBy>
+<createdTime>2021-04-12 15:48:55 UTC</createdTime>
+<generatorID>10191EEF-0504-3910-70FD-1E2060499E16</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="4369BC6B-4DDC-8AE4-8C21-B23025C89329" value="true"/>
+</engineerTo>
+<sourcePk>BB589B04-2C72-4477-0478-F4517CF9E2BD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9796E741-DCA2-38A7-AC37-935B980553F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B2447A9-D2B5-AA15-D3CD-E3FF18A6C9C1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
