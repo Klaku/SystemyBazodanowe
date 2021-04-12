@@ -59,18 +59,6 @@
 <colAssociation fkAssociation="DEF2EDF9-F4A5-CCE7-08A7-0F4BD9CD325A" referredColumn="F5CDE7D6-2CB7-27EF-D501-C72CDBB7B93C"/>
 </associations>
 </Column>
-<Column name="Id1" id="A70102B5-6EF3-0EAA-E78A-2D79F8E56E21">
-<createdBy>Administrator</createdBy>
-<createdTime>2021-04-12 15:58:22 UTC</createdTime>
-<generatorID>87930EB9-3B49-764C-E768-09AA37A9F9F1</generatorID>
-<ownerDesignName>DataModeler</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0E6076AE-4568-29C7-9C52-A3DF3FB00B4B" name="Oceny_PK">

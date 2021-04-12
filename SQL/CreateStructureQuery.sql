@@ -26,8 +26,7 @@ CREATE TABLE Oceny
      Id INTEGER NOT NULL , 
      Ocena VARCHAR (5) NOT NULL , 
      Przedmiot_Id INTEGER NOT NULL , 
-     User_Id INTEGER NOT NULL , 
-     Id1 INTEGER NOT NULL 
+     User_Id INTEGER NOT NULL 
     )
 GO
 
