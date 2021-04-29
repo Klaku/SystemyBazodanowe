@@ -1,7 +1,14 @@
 insert into Rola values(1,'Profesor')
+insert into Rola values(2,'Student')
+insert into Rola values(3,'Guest')
+
+
 
 DROP SEQUENCE UsersIdentity
 CREATE SEQUENCE UsersIdentity AS BIGINT START WITH 1 INCREMENT BY 1
+
+
+
 
 begin try
 	begin transaction
