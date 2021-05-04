@@ -23,18 +23,15 @@ DROP TABLE Users
 
 CREATE TABLE Oceny 
     (
-     Id INTEGER NOT NULL , 
+     Id INTEGER IDENTITY NOT NULL, 
      Ocena VARCHAR (5) NOT NULL , 
      Przedmiot_Id INTEGER NOT NULL , 
-     User_Id INTEGER NOT NULL 
+     User_Id INTEGER NOT NULL ,
+     Suma_Kontrolna Integer NOT NULL,
+     Klucz VARCHAR(400) NOT NULL
     )
 GO
 
-ALTER TABLE Oceny ADD CONSTRAINT Oceny_PK PRIMARY KEY CLUSTERED (Id)
-     WITH (
-     ALLOW_PAGE_LOCKS = ON , 
-     ALLOW_ROW_LOCKS = ON )
-GO
 
 CREATE TABLE Prowadzacy 
     (
