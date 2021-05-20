@@ -16,7 +16,6 @@ AS
    ROLLBACK;
 go
 
-DROP TRIGGER trgPerson
 go
 CREATE TRIGGER trgPerson ON Users for INSERT,UPDATE 
 AS UPDATE u SET 

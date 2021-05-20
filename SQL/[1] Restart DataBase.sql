@@ -3,6 +3,9 @@
 --   site:      SQL Server 2012
 --   type:      SQL Server 2012
 
+drop Trigger bezpiecznik on Database
+drop Trigger checkMark
+drop Trigger trgPerson
 
 ALTER TABLE Oceny DROP CONSTRAINT Oceny_Przedmiot_FK
 ALTER TABLE Oceny DROP CONSTRAINT Oceny_User_FK
